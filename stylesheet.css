@@ -1,0 +1,57 @@
+/*universal selector*/
+*{
+    color:hotpink;
+}
+h1{
+    color:seagreen; 
+}
+
+/*class selector*/
+.yellow{
+    color:yellow;
+}
+.springgreen{
+    color:springgreen;
+}
+/*multiple class selector*/
+.palevioletred{
+    color:palevioletred
+}
+.blue{
+    color:blue;
+}
+.bgyellow{
+    background-color:yellow
+}
+/*ID Selectors*/
+#cyan{
+    color:cyan;
+}
+#darkorange{
+    color:darkorange;
+}
+/*Attribute selectors*/
+[class="orangered"]{
+    color:orangered;
+}
+[class="gold"]{
+    color:gold;
+}
+input[type="text"]{
+    color:red;
+}
+
+/*descandant selectors*/
+div p{
+    border: 2px solid yellow;
+}
+.mistryrose{
+    color:mistyrose;
+}
+/*child selectors*/
+div>p2{
+    border:2px solid yellowgreen;
+}
+.turquoise{
+    color:turquoise;
+}
